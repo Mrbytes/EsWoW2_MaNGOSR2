@@ -1,1 +1,85 @@
-﻿
+﻿-- ================== --
+--     GAME_EVENT     --
+-- YDB 605 Estado:FULL--
+-- ================== --
+
+SET NAMES utf8;
+ALTER TABLE `game_event` CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+				
+UPDATE `game_event` set `description`='Festival de Solsticio' where `entry`='1';
+UPDATE `game_event` set `description`='Festival de Invierno' where `entry`='2';
+UPDATE `game_event` set `description`='Feria de la Luna Negra (Bosque de Terokkar)' where `entry`='3';
+UPDATE `game_event` set `description`='Feria de la Luna Negra (Bosque de Elwynn)' where `entry`='4';
+UPDATE `game_event` set `description`='Feria de la Luna Negra (Mulgore)' where `entry`='5';
+UPDATE `game_event` set `description`='Año Nuevo' where `entry`='6';
+UPDATE `game_event` set `description`='Festival Lunar' where `entry`='7';
+UPDATE `game_event` set `description`='Amor en el Aire' where `entry`='8';
+UPDATE `game_event` set `description`='Jardín Noble' where `entry`='9';
+UPDATE `game_event` set `description`='Semana de los Niños' where `entry`='10';
+UPDATE `game_event` set `description`='Festival de la Cosecha' where `entry`='11';
+UPDATE `game_event` set `description`='Halloween' where `entry`='12';
+UPDATE `game_event` set `description`='Refuerzos para Anh Qiraj' where `entry`='22';
+UPDATE `game_event` set `description`='Invasión de la Plaga' where `entry`='17';
+UPDATE `game_event` set `description`='Invasión de Elementales' where `entry`='13';
+UPDATE `game_event` set `description`='Va a comenzar la Fiesta de la Pesca en Tuercespina' where `entry`='14';
+UPDATE `game_event` set `description`='Captura del Botín en Gurubashi Arena' where `entry`='16';
+UPDATE `game_event` set `description`='Fiesta de la Pesca en Tuercespina' where `entry`='15';
+UPDATE `game_event` set `description`='Llamamiento a las Armas:¡ Valle de Alterac!' where `entry`='18';
+UPDATE `game_event` set `description`='Llamamiento a las Armas: ¡Garganta Grito de Guerra!' where `entry`='19';
+UPDATE `game_event` set `description`='Llamamiento a las Armas: ¡Cuenca de Arathi!' where `entry`='20';
+UPDATE `game_event` set `description`='Llamamiento a las Armas: ¡Ojo de la Tormenta!' where `entry`='21';
+UPDATE `game_event` set `description`='¡Los Lobos Atacan Orgrimmar (Grupo Dos)!' where `entry`='24';
+UPDATE `game_event` set `description`='¡Los Lobos Atacan Orgrimmar (Grupo Uno)!' where `entry`='23';
+UPDATE `game_event` set `description`='¡Festival de la Cerveza!' where `entry`='26';
+UPDATE `game_event` set `description`='¡La Legión Ardiente ataca Ventormenta!' where `entry`='28';
+UPDATE `game_event` set `description`='Construcción de la Feria de la Luna Negra (Bosque de Elwynn)' where `entry`='31';
+UPDATE `game_event` set `description`='Culto Crepuscular y Invasión  Elementa' where `entry`='48';
+UPDATE `game_event` set `description`='¡Orgrimmar se defiende de los Lobos!' where `entry`='25';
+UPDATE `game_event` set `description`='Concierto de los L70ETC en Bosque Terokkar' where `entry`='34';
+UPDATE `game_event` set `description`='Locura de Espadas, Gri\'lek' where `entry`='35';
+UPDATE `game_event` set `description`='Locura de Espadas, Hazza\'rah' where `entry`='36';
+UPDATE `game_event` set `description`='Locura de Espadas, Renataki' where `entry`='37';
+UPDATE `game_event` set `description`='Locura de Espadas, Wushoolay' where `entry`='38';
+UPDATE `game_event` set `description`='Anochece, ¡Vienen los Hombres Lobo a Piroleña!' where `entry`='29';
+UPDATE `game_event` set `description`='Día de los Piratas' where `entry`='32';
+UPDATE `game_event` set `description`='Festividad de los Muertos' where `entry`='40';
+UPDATE `game_event` set `description`='Generosidad del Peregrino' where `entry`='41';
+UPDATE `game_event` set `description`='Llamamiento a las Armas: Isla de la Conquista' where `entry`='42';
+UPDATE `game_event` set `description`='Sentencia bajo ataque' where `entry`='43';
+UPDATE `game_event` set `description`='Ataque demoniaco a Thrallmar' where `entry`='44';
+UPDATE `game_event` set `description`='Competición de pesca Kalu\'ak' where `entry`='45';
+UPDATE `game_event` set `description`='Lamamiento a las Armas: ¡Playa de los Ancestros!' where `entry`='30';
+UPDATE `game_event` set `description`='Enero' where `entry`='50';
+UPDATE `game_event` set `description`='Febrero' where `entry`='51';
+UPDATE `game_event` set `description`='Marzo' where `entry`='52';
+UPDATE `game_event` set `description`='Abril' where `entry`='53';
+UPDATE `game_event` set `description`='Mayo' where `entry`='54';
+UPDATE `game_event` set `description`='Junio' where `entry`='55';
+UPDATE `game_event` set `description`='Julio' where `entry`='56';
+UPDATE `game_event` set `description`='Agosto' where `entry`='57';
+UPDATE `game_event` set `description`='Septiembre' where `entry`='58';
+UPDATE `game_event` set `description`='Octubre' where `entry`='59';
+UPDATE `game_event` set `description`='Noviembre' where `entry`='60';
+UPDATE `game_event` set `description`='Diciembre' where `entry`='61';
+UPDATE `game_event` set `description`='La caída de Zalazane' where `entry`='46';
+UPDATE `game_event` set `description`='Operación: Gnomeregan' where `entry`='47';
+UPDATE `game_event` set `description`='Pesca (temporada de invierno)' where `entry`='64';
+UPDATE `game_event` set `description`='Pesca (temporada de verano)' where `entry`='65';
+UPDATE `game_event` set `description`='Pesca (00.00-06.00)' where `entry`='66';
+UPDATE `game_event` set `description`='Pesca (06.00-12.00)' where `entry`='67';
+UPDATE `game_event` set `description`='Pesca (12.00-18.00)' where `entry`='68';
+UPDATE `game_event` set `description`='Pesca (18.00-00.00)' where `entry`='69';
+UPDATE `game_event` set `description`='¡Ventormenta se defiende de la Legión Ardiente!' where `entry`='27';
+UPDATE `game_event` set `description`='Los líderes de Jin\'Alai, Gawanil' where `entry`='33';
+UPDATE `game_event` set `description`='Los líderes de Jin\'Alai, Chulo' where `entry`='39';
+UPDATE `game_event` set `description`='Festival de Invierno: Regalos' where `entry`='49';
+UPDATE `game_event` set `description`='La Ciudad de Ventormenta Bajo Ataque' where `entry`='77';
+UPDATE `game_event` set `description`='La Ciudad de Orgrimmar Bajo Ataque' where `entry`='78';
+UPDATE `game_event` set `description`='Bajo Ataque JvJ Gurubashi Arena' where `entry`='109';
+UPDATE `game_event` set `description`='La Legión Ataca La Ciudad de Shattrath' where `entry`='101';
+UPDATE `game_event` set `description`='Invasión de Conejos en Dalaran' where `entry`='105';
+UPDATE `game_event` set `description`='Taberna del Fin del Mundo - Anuncio de Perry Gatner' where `entry`='62';
+UPDATE `game_event` set `description`='Taberna del Fin del Mundo - Perry Gatner Levanta el Telón' where `entry`='63';
+UPDATE `game_event` set `description`='Taberna del Fin del Mundo - Anuncio del concierto de L70ETC' where `entry`='70';
+UPDATE `game_event` set `description`='Taberna del Fin del Mundo - Concierto de L70ETC' where `entry`='71';
+UPDATE `game_event` set `description`='Ciudad de Ventormenta - Fuga de las Mazmorras' where `entry`='72';
