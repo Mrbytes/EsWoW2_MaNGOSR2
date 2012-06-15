@@ -38,7 +38,7 @@ UPDATE `creature_ai_texts` SET `content_loc6`='Defendeos, aunque no os servirá 
 UPDATE `creature_ai_texts` SET `content_loc6`='Lo sabía, sabía que... era la unica salida.' WHERE `entry`='-25';
 UPDATE `creature_ai_texts` SET `content_loc6`='Si, muy satisfactorio.' WHERE `entry`='-26';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Al fin, un objetivo para mis frustraciones!' WHERE `entry`='-27';
-UPDATE `creature_ai_texts` SET `content_loc6`='¡No puedes estar aquí! ¡Los Acianos se levantarán contra los intrusos!' WHERE `entry`='-28';
+UPDATE `creature_ai_texts` SET `content_loc6`='¡No puedes estar aquí! ¡Los Ancianos se levantarán contra los intrusos!' WHERE `entry`='-28';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡No me reteis, escorias! ¡Ahora soy el rey, y seré el rey PARA SIEMPRE!' WHERE `entry`='-29';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡%s esparce sangre en el aire!' WHERE `entry`='-30';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡%s es salpicado por la sangre y se hace irradiante!' WHERE `entry`='-31';
@@ -1083,7 +1083,7 @@ UPDATE `creature_ai_texts` SET `content_loc6`='Quizá... os hayamos... Subestima
 UPDATE `creature_ai_texts` SET `content_loc6`='Una defensa valiente, pero esta ciudad debe ser arrasada ¡Yo misma cumpliré los deseos de Malygos!' WHERE `entry`='-1181';
 UPDATE `creature_ai_texts` SET `content_loc6`='Aplastar....' WHERE `entry`='-1182';
 UPDATE `creature_ai_texts` SET `content_loc6`='Ja…ja…ja…ja…' WHERE `entry`='-1183';
-UPDATE `creature_ai_texts` SET `content_loc6`='Uuuuhhhhhhhhhh......' WHERE `entry`='-1184';
+UPDATE `creature_ai_texts` SET `content_loc6`='Aaaahhhhhhhhhh......' WHERE `entry`='-1184';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡El aire rebosa energía latente... menuda cosecha!' WHERE `entry`='-1185';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Abundantes, recursos, explotables…. preparados para ser adquiridos!' WHERE `entry`='-1186';
 UPDATE `creature_ai_texts` SET `content_loc6`='Curioso... hay una gran cantidad de energía arcana cerca. Hora de buscarla…' WHERE `entry`='-1187';
