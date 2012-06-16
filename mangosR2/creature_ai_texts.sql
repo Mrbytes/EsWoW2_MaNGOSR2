@@ -1173,7 +1173,7 @@ UPDATE `creature_ai_texts` SET `content_loc6`='¡Levantad, hermanos!' WHERE `ent
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Nuestros maestros de hierro trabajan para nosotros!' WHERE `entry`='-243812';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Seguidme a las montañas y haced la voluntad de nuestro Señor!' WHERE `entry`='-243813';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡No nos rendiremos!' WHERE `entry`='-243814';
-UPDATE `creature_ai_texts` SET `content_loc6`='Vuestros ofrecimientos hanllegado algo tarde. ¿Sentís como la bruma os rodea? El retorno Kvaldir...' WHERE `entry`='-248741';
+UPDATE `creature_ai_texts` SET `content_loc6`='Vuestros ofrecimientos han llegado algo tarde. ¿Sentís como la bruma os rodea? El retorno Kvaldir...' WHERE `entry`='-248741';
 UPDATE `creature_ai_texts` SET `content_loc6`='Mis hermanos han despertado. Vuestros esfuerzos son en vano...' WHERE `entry`='-248751';
 UPDATE `creature_ai_texts` SET `content_loc6`='Desde la bruma y la niebla Kvaldir acecha. Huid mientras aún respiráis el aire de la vida...' WHERE `entry`='-248761';
 UPDATE `creature_ai_texts` SET `content_loc6`='Mirad a los mares, como vuestro destino viene con la subida de la mareas' WHERE `entry`='-248771';
