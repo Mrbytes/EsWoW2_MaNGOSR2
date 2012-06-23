@@ -17,7 +17,7 @@ UPDATE `creature_ai_texts` SET `content_loc6`='Ah, una oportunidad para usar est
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Siente el poder de la Hermandad!' WHERE `entry`='-4';
 UPDATE `creature_ai_texts` SET `content_loc6`='Más huesos para roer...' WHERE `entry`='-5';
 UPDATE `creature_ai_texts` SET `content_loc6`='Grrrr... ¡carne fresca!' WHERE `entry`='-6';
-UPDATE `creature_ai_texts` SET `content_loc6`='¡No cojas la vela!' WHERE `entry`='-7';
+UPDATE `creature_ai_texts` SET `content_loc6`='¡Tú no cojer vela!' WHERE `entry`='-7';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Yujuuuuuu! ¡Yo correr!.' WHERE `entry`='-8';
 UPDATE `creature_ai_texts` SET `content_loc6`='¿Qué significa esta impertinencia? ¡Moriréis!' WHERE `entry`='-9';
 UPDATE `creature_ai_texts` SET `content_loc6`='¡Gritad mientras ardeis!' WHERE `entry`='-10';
