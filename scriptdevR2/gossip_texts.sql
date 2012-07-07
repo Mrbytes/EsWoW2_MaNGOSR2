@@ -75,7 +75,7 @@ UPDATE `gossip_texts` SET `content_loc6`='Ciudadela de la Corona de Hielo' WHERE
 UPDATE `gossip_texts` SET `content_loc6`='El Sagrario de Sangre' WHERE `entry`='-3631605';
 UPDATE `gossip_texts` SET `content_loc6`='La Guarida de la Reina de Escarcha' WHERE `entry`='-3631606';
 UPDATE `gossip_texts` SET `content_loc6`='El Trono Helado' WHERE `entry`='-3631607';
-UPDATE `gossip_texts` SET `content_loc6`='Â¡Estamos preparados, Tirion!' WHERE `entry`='-3631608';
+UPDATE `gossip_texts` SET `content_loc6`='¡Estamos preparados, Tirion!' WHERE `entry`='-3631608';
 UPDATE `gossip_texts` SET `content_loc6`='¡Lady Jaina, estamos listos para la siguiente misión!' WHERE `entry`='-3594536';
 UPDATE `gossip_texts` SET `content_loc6`='¡Vamos, Lady Jaina!' WHERE `entry`='-3594537';
 UPDATE `gossip_texts` SET `content_loc6`='¡Lady Sylvanas, estamos listos para la siguiente misión!' WHERE `entry`='-3594538';
