@@ -3397,7 +3397,7 @@ UPDATE `script_texts` SET `content_loc6`='¡Maestro, un regalo para ti!' WHERE `
 UPDATE `script_texts` SET `content_loc6`='¡Gloria a Yogg-Saron!' WHERE `entry`='-1619022';
 UPDATE `script_texts` SET `content_loc6`='¡Tu no lo vales!' WHERE `entry`='-1619023';
 UPDATE `script_texts` SET `content_loc6`='¡Levántate! Aun no has sufrido bastante.' WHERE `entry`='-1619024';
-UPDATE `script_texts` SET `content_loc6`='No espereis que vustro sacrilegio... quede impune.' WHERE `entry`='-1619025';
+UPDATE `script_texts` SET `content_loc6`='No espereis que vuestro sacrilegio... quede impune.' WHERE `entry`='-1619025';
 UPDATE `script_texts` SET `content_loc6`='¡Los propios elementos se alzarán contra el mundo civilizado! ¡Solo los fieles se salvarán!' WHERE `entry`='-1619026';
 UPDATE `script_texts` SET `content_loc6`='La inmortalidad puede ser vuestra. ¡Pero solo si jurais lealtad total a Yogg-Saron!' WHERE `entry`='-1619027';
 UPDATE `script_texts` SET `content_loc6`='Aquí dentro de las fronteras de este dominio. ¡Experimentareis poderes que jamas habrias imaginado!' WHERE `entry`='-1619028';
