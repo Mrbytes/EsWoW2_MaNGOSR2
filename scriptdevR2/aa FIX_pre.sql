@@ -355,6 +355,15 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603271,'Stand back, mortals. I am not here to fight you.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15406,1,0,0,'Algalon intro2'),
 (-1603270,'Trans-location complete. Commencing planetary analysis of Azeroth.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15405,1,0,0,'Algalon intro1');
 
+-- trial of crusader
+INSERT INTO `script_texts`
+(`comment`,`sound`, `entry`,`type`,`language`,`emote`,`content_default`) VALUES
+('34780','0','-1713518','3','0','0','You has been sent to |cFFFF0000Burning Legion!|r'),
+('34780','0','-1713520','3','0','0','%s creates a |cFF00FF00Infernal Eruption!|r'),
+('34780','0','-1713522','3','0','0','$n has been the target of |cFF00FFFFIncinerate Flesh!|r Heal it!'),
+('34497','0','-1713538','3','0','0','%s begins reading a spell |cFFFFFFFFLight Vortex!|r switch to |cFFFFFFFFLight Essence!|r'),
+('34496','0','-1713540','3','0','0','%s begins reading a spell |cFF9932CDDark Vortex!|r switch to |cFF9932CDDark Essence!|r');
+
  -- teleporter from /dev/rsa
 DELETE FROM `gossip_texts` WHERE `entry` BETWEEN -3050009 AND -3050000;
 INSERT INTO `gossip_texts` (`entry`, `content_default`, `content_loc1`, `content_loc2`, `content_loc3`, `content_loc4`, `content_loc5`, `content_loc6`, `content_loc7`, `content_loc8`, `comment`) VALUES
