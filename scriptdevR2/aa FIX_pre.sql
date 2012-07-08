@@ -361,8 +361,9 @@ INSERT INTO `script_texts`
 ('34780','0','-1713518','3','0','0','You has been sent to |cFFFF0000Burning Legion!|r'),
 ('34780','0','-1713520','3','0','0','%s creates a |cFF00FF00Infernal Eruption!|r'),
 ('34780','0','-1713522','3','0','0','$n has been the target of |cFF00FFFFIncinerate Flesh!|r Heal it!'),
-('34497','0','-1713538','3','0','0','%s begins reading a spell |cFFFFFFFFLight Vortex!|r switch to |cFFFFFFFFLight Essence!|r'),
-('34496','0','-1713540','3','0','0','%s begins reading a spell |cFF9932CDDark Vortex!|r switch to |cFF9932CDDark Essence!|r');
+('34497','0','-1713538','3','0','0','%s begins to read the spell  |cFFFFFFFFLight Vortex!|r switch to |cFFFFFFFFLight Essence!|r'),
+('34497','0','-1713539','3','0','0','%s begins to read the spell Twin's Pact!'),
+('34496','0','-1713540','3','0','0','%s begins to read the spell  |cFF9932CDDark Vortex!|r switch to |cFF9932CDDark Essence!|r');
 
  -- teleporter from /dev/rsa
 DELETE FROM `gossip_texts` WHERE `entry` BETWEEN -3050009 AND -3050000;

@@ -4033,4 +4033,5 @@ UPDATE `script_texts` SET `content_loc6`='Has sido enviad$go:a; a la|cFFFF0000¡
 UPDATE `script_texts` SET `content_loc6`='%s crea una |cFF00FF00¡Erupción Infernal!|r' WHERE `entry`='-1713520';
 UPDATE `script_texts` SET `content_loc6`='A $n le han lanzado |cFF00FFFF¡Incinerar carne!|r ¡Sanarl$go:a;!' WHERE `entry`='-1713522';
 UPDATE `script_texts` SET `content_loc6`='%s comienza a leer el hechizo |cFFFFFFFF¡Vórtice de la luz!|r Cambiar a |cFFFFFFFF¡Esencia de la luz!|r' WHERE `entry`='-1713538';
+UPDATE `script_texts` SET `content_loc6`='¡%s comienza a leer el hechizo Pacto de las Gemelas!' WHERE `entry`='-1713539';
 UPDATE `script_texts` SET `content_loc6`='%s comienza a leer el hechizo |cFF9932CD¡Vórtice de la oscuridad!|r Cambiar a |cFF9932CD¡Esencia de la oscuridad!|r' WHERE `entry`='-1713540';
