@@ -469,7 +469,7 @@ UPDATE mangos_string SET `content_loc6`='Objeto de Juego (Entry: %u) no encontra
 UPDATE mangos_string SET `content_loc6`='>> Objeto de Juego %s (GUID: %u) en %f %f %f. Orientación %f.' WHERE `entry`='523';
 UPDATE mangos_string SET `content_loc6`='Objeto seleccionado: \r\n|cffffffff|Hobjetojuego:%d|h[%s]|h|r GUID: %u ID: %u X: %f Y: %f Z: %f\r\nIdMapa: %u\r\nOrientación: %f' WHERE `entry`='524';
 UPDATE mangos_string SET `content_loc6`='>> Añadir Objeto de Juego \'%i\' (%s) (GUID: %i) añadido en \'%f %f %f\'.' WHERE `entry`='525';
-UPDATE mangos_string SET `content_loc6`='%s (guidbajo: %u) pila de generadores de movimiento:' WHERE `entry`='526';
+UPDATE mangos_string SET `content_loc6`='%s estados pila de generadores de movimiento:' WHERE `entry`='526';
 UPDATE mangos_string SET `content_loc6`=' Prioridad: %i Estado: %s' WHERE `entry`='527';
 UPDATE mangos_string SET `content_loc6`='        Apuntado hacia %s ' WHERE `entry`='532';
 UPDATE mangos_string SET `content_loc6`='        Movimiento origen a (X:%f Y:%f Z:%f)' WHERE `entry`='535';
@@ -484,7 +484,7 @@ UPDATE mangos_string SET `content_loc6`='Posición: %f %f %f.' WHERE `entry`='54
 UPDATE mangos_string SET `content_loc6`='¡*** Es un vendedor!' WHERE `entry`='545';
 UPDATE mangos_string SET `content_loc6`='¡*** Es un instructor!' WHERE `entry`='546';
 UPDATE mangos_string SET `content_loc6`='ID Mazmorra: %u' WHERE `entry`='547';
-UPDATE mangos_string SET `content_loc6`='Jugador%s %s (guid: %u)\r\nCuenta: %s (id: %u)\r\nNivelMJ: %u\r\nÚltima IP: %s\r\nÚltima conexión: %s\r\nLatencia: %ums' WHERE `entry`='548';
+UPDATE mangos_string SET `content_loc6`='Jugador%s %s (guid: %u)\r\nCuenta: %s (id: %u)\r\nE-mail: %s\r\nNivelMJ: %u\r\nÚltima IP: %s\r\nÚltima conexión: %s\r\nLatencia: %ums' WHERE `entry`='548';
 UPDATE mangos_string SET `content_loc6`='Raza: %s Clase: %s Tiempo jugado: %s Nivel: %u Dinero: %ug%us%uc' WHERE `entry`='549';
 UPDATE mangos_string SET `content_loc6`='Comando .pinfo no soporta la opción \'rep\' para jugadores desconectados.' WHERE `entry`='550';
 UPDATE mangos_string SET `content_loc6`='%s ha explorado ahora todas las zonas.' WHERE `entry`='551';
