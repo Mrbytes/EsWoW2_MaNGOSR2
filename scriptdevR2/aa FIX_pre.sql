@@ -108,7 +108,7 @@ UPDATE `script_texts` SET `sound`='14161' WHERE `entry`='-1602020';
 -- By Mrbytes --
 
 REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2, content_loc3, content_loc4, content_loc5, content_loc6, content_loc7, content_loc8, sound, type, language, emote, comment) VALUES 
- -- Ignis:
+ -- Ignis
 (-1603010,'Insolent whelps! Your blood will temper the weapons used to reclaim this world!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15564, 1, 0, 0,'IgnisAggro'),
 (-1603011,'Let the inferno consume you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15567, 1, 0, 0,'Ignis Scorch1'),
 (-1603012,'BURN! Burn in the makers fire!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15568, 1, 0, 0,'Ignis scroch2'),
@@ -163,7 +163,7 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603067,'This meeting of the Assembly of Iron is adjourned!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15691, 1, 0, 0,'BrundirBerserk'),
 (-1603068,'Let the storm clouds rise and rain down death from above!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15688, 1, 0, 0,'BrundirFly'),
 
- -- Kologarn:
+ -- Kologarn
 (-1603150,'None shall pass!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15586, 1, 0, 0,'KologarnAggro'),
 (-1603151,'OBLIVION!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15591, 1, 0, 0,'Kologarn shockweave'),
 (-1603152,'I will squeeze the life from you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15592, 1, 0, 0,'Kologarn grab'),
@@ -174,7 +174,7 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603157,'I am invincible!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15594, 1, 0, 0,'KologarnBerserk'),
 (-1603158,'Master, they come...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15593, 1, 0, 0,'Kologarndeath'),
 
- -- Auriaya:
+ -- Auriaya
 (-1603070,'Some things are better left alone!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15473,1,0,0,'auriaya aggro'),
 (-1603071,'The secret dies with you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15474,1,0,0,'auriaya Slay 1'),
 (-1603072,'There is no escape!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15475,1,0,0,'auriaya Slay 2'),
@@ -191,7 +191,7 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603086,'The veil of winter will protect you, champions!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15559,1,0,0,'Hodir yogg'),
 (-1603087,'Enough! This ends now!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15558,1,0,0,'Hodir berserk'),
 
- -- Freya: 
+ -- Freya
 (-1603000,'The Conservatory must be protected!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15526,1,0,0,'freya aggro'),
 (-1603001,'Elders, grant me your strength!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15527,1,0,0,'freya aggro hard'),
 (-1603002,'Eonar, your servant requires aid!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15528,1,0,0,'summon conservator'),
@@ -240,7 +240,7 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603216,'\'Freya\'s Ward\' online. Acquiring target.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15514,1,0,0,'Flame Leviathan nature'),
 (-1603217,'%s pursues $N' ,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,3,0,0,'EMOTE_pursue'),
 
- -- Thorim:
+ -- Thorim
 (-1603221,'Interlopers! You mortals who dare to interfere with my sport will pay... Wait--you...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15733,1,0,0,'thorim aggro 1'),
 (-1603222,'I remember you... In the mountains... But you... what is this? Where am--',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15734,1,0,0,'thorim aggro 2'),
 (-1603223,'Behold the power of the storms and despair!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15735,1,0,0,'thorim special 1'),
@@ -260,12 +260,12 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603237,'And now it falls to you, champions, to avenge us all! The task before you is great, but I will lend you my aid as I am able. You must prevail!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15749,1,0,0,'thorim outro hard3'),
 (-1603238,'Golganneth, lend me your strengh! Grant my mortal allies the power of thunder!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15750,1,0,0,'thorim yogg'),
 
- -- Sif:
+ -- Sif
 (-1603185,'Thorim, my lord, why else would these invaders have come into your sanctum but to slay you? They must be stopped!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15668,1,0,0,'sif start'),
 (-1603186,'Impossible! Lord Thorim, I will bring your foes a frigid death!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15670,1,0,0,'sif event'),
 (-1603187,'These pathetic mortals are harmless, beneath my station. Dispose of them!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15669,1,0,0,'sif despawn'),
 
- -- Mimiron:
+ -- Mimiron
 (-1603241,'Oh, my! I wasn\'t expecting company! The workshop is such a mess! How embarrassing!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15611,1,0,0,'mimiron aggro'), 
 (-1603242,'Now why would you go and do something like that? Didn\'t you see the sign that said \'DO NOT PUSH THIS BUTTON!\'? How will we finish testing with the self-destruct mechanism active?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15629,1,0,0,'mimiron hard mode'),
 (-1603243,'Oh, my! It would seem that we are out of time, my friends!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15628,1,0,0,'mimiron berserk'),
@@ -310,8 +310,8 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603125,'Your defeat was inevitable!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15547,1,0,0,'vezax enrage'),
 (-1603126,'Behold, now! Terror, absolute!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15548,1,0,0,'vezax hard'),
 
- -- Yogg:
- -- Sara:
+ -- Yogg
+ -- Sara
 (-1603300,'The time to strike at the head of the beast will soon be upon us! Focus your anger and hatred on his minions!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15775,1,0,0,'sara aggro'),
 (-1603301,'Yes! YES! Show them no mercy! Give no pause to your attacks!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15773,1,0,0,'sara help1'),
 (-1603302,'Let hatred and rage guide your blows!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15774,1,0,0,'sara help2'),
@@ -323,7 +323,7 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603308,'What do you want from me? Leave me alone!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15772,1,0,0,'sara prefight2'),
 (-1603309,'Weak-minded fools!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15780,4,0,0,'sara slay phase1'),
 
- -- Yogg:
+ -- Yogg
 (-1603321,'I am the lucid dream. The monster in your nightmares. The fiend of a thousand faces. Cower before my true form. BOW DOWN BEFORE THE GOD OF DEATH!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15754,1,0,0,'yogg p2 intro'),
 (-1603322,'MADNESS WILL CONSUME YOU!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15756,1,0,0,'yogg vision'),
 (-1603323,'Look upon the true face of death and know that your end comes soon!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15755,1,0,0,'yogg phase 3'),
@@ -333,7 +333,7 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603327,'Your will is no longer you own...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15759,4,0,0,'yogg insanity1'),
 (-1603328,'Destroy them minion, your master commands it!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15760,4,0,0,'yogg insanity2'),
 
- -- Alagon:
+ -- Alagon
 (-1603140,'Your actions are illogical. All possible results for this encounter have been calculated. The pantheon will receive the observer\'s message regardless outcome.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15386,1,0,0,'Agro_algalon the observer'),
 (-1603141,'See your world through my eyes. A universe so vast as to be immeasurable. Incomprehensible even to your greatest minds.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15390,1,0,0,'Engaged for the first time algalon'),
 (-1603142,'Witness the fury of cosmos!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15396,1,0,0,'BIG BANG 1_Algalon'),
@@ -344,10 +344,10 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603147,'You are... out of time.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15394,1,0,0,'BERSEKER_ALGALON'),
 (-1603148,'The stars come to my aid.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15392,1,0,0,'Summoning Collapsing Stars_Algalon1'),
 (-1603149,'I lack the strength to transmit this signal. You must hurry. Find a place of power, close to the skies.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15403,1,0,0,'Summoning Collapsing Stars_Algalon2'),
-(-1603279,'Do not worry about my fate <name>. If the signal is not transmitted in time re-origination will proceed regardless. Save. Your. World.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15404,1,0,0,'algalon outro 5'),
+(-1603279,'Do not worry about my fate $n. If the signal is not transmitted in time re-origination will proceed regardless. Save. Your. World.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15404,1,0,0,'algalon outro 5'),
 (-1603278,'I\'ve rearranged the reply code. Your planet will be spared. I cannot be certain of my own calculations anymore.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15402,1,0,0,'algalon outro 3'),
 (-1603277,'Perhaps it is your imperfection that which grants you free will. That allows you to persevere against cosmically calculated odds. You prevailed where the Titans\' own perfect creations have failed.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15401,1,0,0,'algalon outro 2'),
-(-1603276,'I have seen worlds bathed in the Makers\' flames. Their denizens fading without so much as a whimper. Entire planetary systems born and raised in the time that it takes your mortal hearts to beat once. Yet all throughout, my own heart, devoid of emotion... of empathy. I... have... felt... NOTHING! A million, million lives wasted. Had they all held within them your tenacity? Had they all loved life as you do?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL',15393,1,0,0,'algalon outro1'),
+(-1603276,'I have seen worlds bathed in the Makers\' flames. Their denizens fading without so much as a whimper. Entire planetary systems born and raised in the time that it takes your mortal hearts to beat once. Yet all throughout, my own heart, devoid of emotion... of empathy. I... have... felt... NOTHING! A million, million lives wasted. Had they all held within them your tenacity? Had they all loved life as you do?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15393,1,0,0,'algalon outro1'),
 (-1603275,'Farewell, mortals. Your bravery is admirable, for such flawed creatures.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15400,1,0,0,'algalon despwnd 3'),
 (-1603274,'Begin uplink: Reply Code: \'Omega\'. Planetary re-origination requested.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15399,1,0,0,'algalon despawn 2'),
 (-1603273,'Analysis complete. There is partial corruption in the plane\'s life-support systems as well as complete corruption in most of the planet\'s defense mechanisms.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15398,1,0,0,'algalon despawn1'),
@@ -356,16 +356,16 @@ REPLACE INTO `script_texts` (entry, content_default, content_loc1, content_loc2,
 (-1603270,'Trans-location complete. Commencing planetary analysis of Azeroth.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,15405,1,0,0,'Algalon intro1');
 
 -- trial of crusader
-INSERT INTO `script_texts`
+REPLACE INTO `script_texts`
 (`comment`,`sound`, `entry`,`type`,`language`,`emote`,`content_default`) VALUES
 ('34780','0','-1713518','3','0','0','You has been sent to |cFFFF0000Burning Legion!|r'),
 ('34780','0','-1713520','3','0','0','%s creates a |cFF00FF00Infernal Eruption!|r'),
 ('34780','0','-1713522','3','0','0','$n has been the target of |cFF00FFFFIncinerate Flesh!|r Heal it!'),
 ('34497','0','-1713538','3','0','0','%s begins to read the spell  |cFFFFFFFFLight Vortex!|r switch to |cFFFFFFFFLight Essence!|r'),
-('34497','0','-1713539','3','0','0','%s begins to read the spell Twin's Pact!'),
+('34497','0','-1713539','3','0','0','%s begins to read the spell Twin\'s Pact!'),
 ('34496','0','-1713540','3','0','0','%s begins to read the spell  |cFF9932CDDark Vortex!|r switch to |cFF9932CDDark Essence!|r');
 
- -- teleporter from /dev/rsa
+ -- teleporter from rsa
 DELETE FROM `gossip_texts` WHERE `entry` BETWEEN -3050009 AND -3050000;
 INSERT INTO `gossip_texts` (`entry`, `content_default`, `content_loc1`, `content_loc2`, `content_loc3`, `content_loc4`, `content_loc5`, `content_loc6`, `content_loc7`, `content_loc8`, `comment`) VALUES
 (-3050001,'Expedition Base Camp',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,  'Ulduar teleporter text 1'),
